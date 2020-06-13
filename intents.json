@@ -1,0 +1,90 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["It was nice talking to you! ", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "Bitrix24",
+         "patterns": ["I m not able to access my Bitrix24 account?", "How to access my Bitrix24 account?"],
+         "responses": ["Go to https://cloudcounselage24.bitrix24.com/ On the Login page, In the, ‘Enter the phone number or email’, type in your email id that you have 	  		registered with Cloud Counselage and Click ‘Forgot Password’"],
+         "context_set": ""
+        },
+        {"tag": "Postition",
+         "patterns": ["What is the job profile? Will we be able to work only in the tech we have chosen for the internship?", "What will be my position?", "What 			technologies I will get to learn"],
+         "responses": ["Your job profile is 'Technology - Intern'; if you're in cloud computing technology to update in your LinkedIn or resume, you can write as 				'Cloud Computing - Intern'. Yes, you'll only work in the technology you're selected for but you can take the training of other technologies."],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["What is your name?", "What should I call you?", "Who are you?", "Do you have a name?"],
+         "responses": ["You can call me CCBOT.", "I'm CCBOT!", "I'm CCBOT aka Cloud Counselega Bot."],
+         "context_set": ""
+        },
+        {"tag": "Workgroups",
+         "patterns": ["How many workgroups will an intern be a part of?", "How many workgroups should I be in?", "I am having trouble finding the workgroup"],
+         "responses": ["Every intern should be a part of 2 workgroups.
+			1. "202003-IP"  -- This is a general workgroup. Everyone who is enrolled in IP should be a part of this workgroup.
+			2. "202003-IP-Technology"  -- This is a technology-specific workgroup. You'll be added to the technology you had enrolled for. For example 				"202003-IP-Python" for students who enrolled for python.
+			If anyone has not been added to any of these workgroups, kindly message "Cloud Counselage HR " regarding the same over bitrix24 platform."],
+         "context_set": ""
+        }
+	{"tag": "Token",
+         "patterns": ["Not able to access the LP1 page with my token", "When I put my token it redirects me to the home page", "Getting error while accessing the page- 			(User Not Found)", "Website Redirection Issue", "Tokens not working.", "I am applying my 2nd token that is the LP1 then it shows invalid user 				but the first token was accepted. What should I do?", "I tried it 3-4 times and have to enter token each time I visit it."],
+         "responses": ["Please watch the videos shared with the invite and you should not face any problems in accessing the training. Please follow the protocol shown 			in the videos.", "For each training of LP1, there are different tokens. Please read the tasks or watch the videos again meticulously. Try 				accessing it in incognito mode.", "We understand that it sometimes becomes tedious to access the training and we highly appreciate your support 			in making the training possible. We only do this for security reasons and we're trying to find a way to minimise the token use. For now, please 			note that in LP1 there are 3 types tokens:
+			1. One for each technology, you're a part of.
+			2. The lp1 home page.
+			3. The 6 tokens (one for each step)"],
+         "context_set": ""
+        },
+        {"tag": "Login",
+         "patterns": ["Login issues with training", "for every module of LP1, LP2, do we have to register again for access to the content?"],
+         "responses": ["Yes, you need to register for every module of training. Some of you are facing login issues, we have kept the training visible without login. 			Even then, to post a comment and give a quiz you'll have to login. In case you face difficulty to do so, please try to perform your quiz or 			post a comment by using a different browser or incognito mode."],
+         "context_set": ""
+        },
+        {"tag": "Lp1",
+         "patterns": ["I did follow the instructions given in the video, but still, I'm not able to log in for the LP1 task", "Do I need to register every time I do 			different tasks of lp1?", "Can you help me by telling how can I get to know about my progress of LP 1"],
+         "responses": ["Ensure you're using the right token", "There are codes in the LP1 assignment, and each time you have to register also, please check your task 				description.", "There is no metric to score your progress in any learning paths as it will be at a different pace for every individual."],
+         "context_set": ""
+        },
+        {"tag": "Training",
+         "patterns": ["Do I need to pass with the certificate in training.", "I am not getting results of the training"],
+         "responses": ["No, but please ensure you complete the training.", "They are just for your practice and not for our record, so you don't need the results of 			LP1 and LP2 training."],
+         "context_set": ""
+        },
+        {"tag": "Task",
+         "patterns": ["I am not able to see my tasks."],
+         "responses": ["Please remove the default "In Progress" from your filter of the task section and try."],
+         "context_set": ""
+        }
+	{"tag": "Work report",
+         "patterns": ["What do we do in the work report?"],
+         "responses": ["As mentioned in the video, please write what you have done this week and request approval from your supervisor by clicking on "send to 			supervisor"."],
+         "context_set": ""
+        },
+        {"tag": "Internship",
+         "patterns": ["I just joined the group and I am not understanding what to do further", "How do I start my internship?", "When will we get an internship 			completion letter?"],
+         "responses": ["Please go through the mail from which you have accepted the invite and check the task section as well.", "This is a three (3) month internship 			conducted in the month of March, June & July 2020. You will receive your internship experience letter in August during the convocation only if 			you successfully submit your Live Project."],
+         "context_set": ""
+        },
+        {"tag": "quiz",
+         "patterns": ["What do I do after completing the quiz?", "how to complete the entire lp1", "Unable to access the quiz"],
+         "responses": ["There are tokens for each training in the task, if this learning path is done, please wait for the next learning path to begin and then please 				try to finish it. If you are done with LP3 please wait for Live Projects to begin.","Please retry after some time in an incognito window"],
+         "context_set": ""
+        },
+        {"tag": "Complete",
+         "patterns": ["I have complete one training, I didn't find any options to continue my training.", "What to do after completing LP1/ LP2/ LP3?"],
+         "responses": ["Go back to the technology Page. Enter the respective tokens and then work. follow the same process every time.", "Mark your task as finished 			and wait for the next instructions."],
+         "context_set": ""
+        },
+        {"tag": "Lp3",
+         "patterns": ["What happens in LP3?", "What kind of training can we expect in LP3?", "Is LP3 training Basic/Advance level?"],
+         "responses": ["LP3 will be assignment based and its execution and content vary from technology to technology. This assignment will be like a mini-project for 			all interns in a particular technology which will be verified by Cloud Counselage Project Managers."," "],
+         "context_set": ""
+        }
+   ]
+}
+
